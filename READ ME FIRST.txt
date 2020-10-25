@@ -1,0 +1,15 @@
+*******************************************************************
+                       TEST TASK
+*******************************************************************
+
+Hi Code Checker!
+
+I Used : Open Server "Basic" for php and mysql.
+DB     : One table with all data.
+React  : create-react-app.
+
+Entry file for view and control emails : 'php/showEmail.php'.
+
+//-------------------------------------------
+              Thank you for attention!
+//-------------------------------------------

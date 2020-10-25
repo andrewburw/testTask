@@ -1,0 +1,154 @@
+
+/* ############## adaptive ################ */
+
+@media (min-width: 900px) {
+  .flex_container {
+    display: flex;
+    width: 100%;
+
+  }
+
+  .flex_item_right {
+    flex: 1;
+    background: lightblue;
+    background-image: url('../images/headerbg.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 8% 0%;
+  }
+
+  .flex_item_left {
+    width: 680px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  }
+  .form__input-container {
+    width: 663px;
+    position: absolute;
+  }
+  .header {
+    padding-top: 100px;
+  }
+  .header__logo {
+    float: left;
+  }
+  .nav__menu {
+    float: right;
+    padding-top: 15px;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+  .flex_container{
+      height: 100%;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+
+  }
+
+  .header {
+      display: inline-block;
+      position: absolute;
+
+      left: 0px;
+      width: 100%;
+      background-color:#FFFFFF;
+      height: 66px;
+
+  }
+  .header__logo {
+     padding-left: 20px;
+     padding-top: 10px;
+     float: left;
+  }
+  .logoNoText {
+    display: block;
+  }
+  .logoWithText{
+   display: none;
+
+  }
+  .nav{
+      float: right;
+      padding-top: 20px;
+      padding-right: 20px;
+  }
+ .main__container-responsive{
+
+   margin: 0 auto;
+   padding: 20px 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  }
+
+  .wecome__msg ,h1{
+     padding-left: 0px;
+     font-size: 24px;
+     line-height: 34px;
+
+  }
+  .wecome__msg ,p{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .flex_item_left {
+
+      height: 100vh;
+    background: lightblue;
+    background-image: url('../images/headerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  .input__plus-button{
+
+    padding-top: 20px;
+  }
+  input[type='email'] {
+     height: 60px;
+     padding-left: 15px;
+  }
+  button {
+    height: 60px;
+  }
+  .checkbox__container {
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .line__container{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  hr.line{
+
+    width: inherit;
+  }
+  .social__icons-container {
+
+
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .test {
+    text-align: center;
+
+    padding-bottom: 20px;
+
+  }
+  .social__icons-item+.social__icons-item {
+    margin-left: 10px;
+  }
+  .succes__msg {
+    padding-left: 0px;
+    padding-top: 175px;
+  }
+  .succes__msg-text, p {
+    padding-top: 21px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
